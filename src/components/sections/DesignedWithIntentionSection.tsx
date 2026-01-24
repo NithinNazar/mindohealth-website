@@ -196,7 +196,8 @@ const DesignedWithIntentionSection: React.FC = () => {
   return (
     <section
       ref={sectionRef}
-      className="relative w-full pt-10 lg:pt-16 pb-20 lg:pb-32 bg-mindo-green/35 overflow-hidden"
+      className="relative w-full pt-10 lg:pt-16 pb-20 lg:pb-32 overflow-hidden"
+      style={{ backgroundColor: "#0d5496" }}
     >
       <div className="max-w-7xl mx-auto px-section-x">
         {/* Section Header */}
@@ -231,12 +232,12 @@ const DesignedWithIntentionSection: React.FC = () => {
               <div className="mb-6">{card.icon}</div>
 
               {/* Title */}
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
+              <h3 className="text-xl font-bold text-gray-700 mb-3">
                 {card.title}
               </h3>
 
               {/* Description */}
-              <p className="text-base text-gray-600 leading-relaxed">
+              <p className="text-base text-gray-300 leading-relaxed">
                 {card.description}
               </p>
             </div>
