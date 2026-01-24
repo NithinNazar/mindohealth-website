@@ -1,4 +1,4 @@
-import mindoLogo from "../../assets/mindo_logo.jpeg";
+import mindoLogo from "../../assets/mindo_logo-2.jpg";
 
 const Footer: React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
               <img
                 src={mindoLogo}
                 alt="MindoHealth"
-                className="h-16 w-16 rounded-lg"
+                className="h-18 w-18 rounded-2xl"
               />
               <span className="text-xl font-bold text-white">MindoHealth</span>
             </div>

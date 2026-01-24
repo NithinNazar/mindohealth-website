@@ -30,7 +30,7 @@ const Navigation: React.FC<NavigationProps> = ({ logo, links }) => {
               <img
                 src={logo}
                 alt="Mindo Health Logo"
-                className="h-12 w-auto object-contain"
+                className="h-18 w-auto object-contain rounded-2xl"
               />
             ) : (
               <span className="text-2xl font-bold text-mindo-gray-900">

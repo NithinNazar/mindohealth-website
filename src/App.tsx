@@ -1,8 +1,6 @@
 import Navigation from "./components/layout/Navigation";
 import Footer from "./components/layout/Footer";
 import HeroSection from "./components/sections/HeroSection";
-import HeroSectionAlt from "./components/sections/HeroSectionAlt";
-import HeroSectionVariant3 from "./components/sections/HeroSectionVariant3";
 import FeelingOverwhelmedSection from "./components/sections/FeelingOverwhelmedSection";
 import StatsSection from "./components/sections/StatsSection";
 import WhyMindoHealthSection from "./components/sections/WhyMindoHealthSection";
@@ -12,7 +10,7 @@ import SupportiveCommunitySection from "./components/sections/SupportiveCommunit
 import CorporateWellbeingSection from "./components/sections/CorporateWellbeingSection";
 import MindoYellowPagesSection from "./components/sections/MindoYellowPagesSection";
 import ContactLocationSection from "./components/sections/ContactLocationSection";
-import mindoLogo from "./assets/mindo_logo.jpeg";
+import mindoLogo from "./assets/mindo_logo-2.jpg";
 import heroVideo from "./assets/mindo_hero_video.mp4";
 
 function App() {
@@ -34,24 +32,8 @@ function App() {
         ctaAction={() => console.log("CTA clicked")}
       />
 
-      {/* Hero Section - Option 1: Split Layout with Blurred Background */}
+      {/* Hero Section */}
       <HeroSection
-        videoSrc={heroVideo}
-        headline="Headlines and Description"
-        subheadline="Experience comprehensive mental health support with our 100% online platform. Connect with expert therapists, access live consultations, and find the care you need, whenever you need it."
-        ctaButtons={[]}
-      />
-
-      {/* Hero Section - Option 2: Full Width Video with Overlapping Text */}
-      <HeroSectionAlt
-        videoSrc={heroVideo}
-        headline="Headlines and Description"
-        subheadline="Experience comprehensive mental health support with our 100% online platform. Connect with expert therapists, access live consultations, and find the care you need, whenever you need it."
-        ctaButtons={[]}
-      />
-
-      {/* Hero Section - Option 3: Colored Text with Gradient Background */}
-      <HeroSectionVariant3
         videoSrc={heroVideo}
         headline="Real care adapts to your life, your people, your pace."
         subheadline="Care doesn't happen in isolation. It works when it's rooted in your everyday life."
