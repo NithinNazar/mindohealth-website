@@ -1,4 +1,4 @@
-import mindoLogo from "../../assets/mindo_logo-2.jpg";
+import mindoLogo from "../../assets/mindo_logo_3.png";
 
 const Footer: React.FC = () => {
   return (

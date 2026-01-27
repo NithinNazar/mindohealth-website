@@ -197,12 +197,12 @@ const DesignedWithIntentionSection: React.FC = () => {
     <section
       ref={sectionRef}
       className="relative w-full pt-10 lg:pt-16 pb-20 lg:pb-32 overflow-hidden"
-      style={{ backgroundColor: "#0d5496" }}
+      style={{ backgroundColor: "#0a3d6b" }}
     >
       <div className="max-w-7xl mx-auto px-section-x">
         {/* Section Header */}
         <div className="mb-16">
-          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-mindo-teal leading-tight">
+          <h2 className="text-3xl lg:text-4xl xl:text-5xl font-semibold text-white leading-tight">
             Designed with intention
             <br />
             Backed by science

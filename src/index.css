@@ -170,8 +170,31 @@ html {
   -webkit-backface-visibility: hidden;
 }
 
+.flip-card-front {
+  z-index: 10;
+  pointer-events: auto;
+}
+
 .flip-card-back {
   transform: rotateY(180deg);
+  z-index: 20;
+  pointer-events: none;
+}
+
+/* Enable pointer events on back side when card is hovered */
+.flip-card:hover .flip-card-front {
+  pointer-events: none !important;
+}
+
+.flip-card:hover .flip-card-back {
+  pointer-events: auto !important;
+}
+
+/* Ensure buttons are always clickable */
+.flip-card button {
+  pointer-events: auto !important;
+  position: relative;
+  z-index: 100;
 }
 
 /* Custom scrollbar */
