@@ -49,20 +49,25 @@ const MindoYellowPagesSection: React.FC = () => {
   }, []);
 
   const districts: District[] = [
-    { name: "Thiruvananthapuram", x: 50, y: 85, professionals: 45 },
-    { name: "Kollam", x: 55, y: 75, professionals: 32 },
-    { name: "Pathanamthitta", x: 65, y: 70, professionals: 18 },
-    { name: "Alappuzha", x: 60, y: 65, professionals: 28 },
-    { name: "Kottayam", x: 70, y: 60, professionals: 35 },
-    { name: "Idukki", x: 80, y: 55, professionals: 15 },
-    { name: "Ernakulam", x: 70, y: 50, professionals: 52 },
-    { name: "Thrissur", x: 65, y: 45, professionals: 38 },
-    { name: "Palakkad", x: 75, y: 35, professionals: 25 },
-    { name: "Malappuram", x: 60, y: 35, professionals: 30 },
-    { name: "Kozhikode", x: 55, y: 25, professionals: 42 },
-    { name: "Wayanad", x: 70, y: 20, professionals: 12 },
-    { name: "Kannur", x: 60, y: 15, professionals: 28 },
-    { name: "Kasaragod", x: 65, y: 8, professionals: 16 },
+    // South Kerala
+    { name: "Thiruvananthapuram", x: 48, y: 92, professionals: 45 },
+    { name: "Kollam", x: 50, y: 84, professionals: 32 },
+    { name: "Pathanamthitta", x: 57, y: 78, professionals: 18 },
+    { name: "Alappuzha", x: 48, y: 76, professionals: 28 },
+    { name: "Kottayam", x: 56, y: 72, professionals: 35 },
+    { name: "Idukki", x: 68, y: 70, professionals: 15 },
+
+    // Central Kerala
+    { name: "Ernakulam", x: 52, y: 64, professionals: 52 },
+    { name: "Thrissur", x: 50, y: 56, professionals: 38 },
+    { name: "Palakkad", x: 66, y: 54, professionals: 25 },
+
+    // North Kerala
+    { name: "Malappuram", x: 52, y: 48, professionals: 30 },
+    { name: "Kozhikode", x: 50, y: 40, professionals: 42 },
+    { name: "Wayanad", x: 66, y: 38, professionals: 12 },
+    { name: "Kannur", x: 52, y: 28, professionals: 28 },
+    { name: "Kasaragod", x: 54, y: 18, professionals: 16 },
   ];
 
   const professionals: Professional[] = [
