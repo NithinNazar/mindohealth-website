@@ -491,7 +491,7 @@ const UnitHeadPage: React.FC = () => {
                 <>
                   <ProfessionalCard professional={juniorPsychologist} />
                   <div className="text-center mt-4">
-                    <h3 className="text-lg font-bold text-gray-900 bg-gradient-to-r from-purple-200 to-purple-300 rounded-2xl px-6 py-3 inline-block">
+                    <h3 className="text-lg font-bold text-gray-900 bg-gray-200 rounded-2xl px-6 py-3 inline-block">
                       Jr Clinical Psychologist
                     </h3>
                   </div>
@@ -504,7 +504,7 @@ const UnitHeadPage: React.FC = () => {
               {unitHead && (
                 <>
                   <ProfessionalCard professional={unitHead} isUnitHead />
-                  <div className="text-center mt-4 bg-gradient-to-r from-purple-200 to-purple-300 rounded-2xl px-6 py-3">
+                  <div className="text-center mt-4 bg-gray-200 rounded-2xl px-6 py-3">
                     <h3 className="text-2xl font-bold text-gray-900 mb-1">
                       UNIT HEAD
                     </h3>
@@ -522,7 +522,7 @@ const UnitHeadPage: React.FC = () => {
                 <>
                   <ProfessionalCard professional={consultantPsychiatrist} />
                   <div className="text-center mt-4">
-                    <h3 className="text-lg font-bold text-gray-900 bg-gradient-to-r from-purple-200 to-purple-300 rounded-2xl px-6 py-3 inline-block">
+                    <h3 className="text-lg font-bold text-gray-900 bg-gray-200 rounded-2xl px-6 py-3 inline-block">
                       Consultant Psychiatrist
                     </h3>
                   </div>
@@ -551,7 +551,7 @@ const UnitHeadPage: React.FC = () => {
             <div className="w-full max-w-sm mx-auto">
               {/* Section Title */}
               <div className="mb-6 flex justify-center">
-                <h2 className="text-xl font-bold text-gray-900 bg-gradient-to-r from-purple-200 to-purple-300 rounded-2xl px-6 py-3">
+                <h2 className="text-xl font-bold text-gray-900 bg-gray-200 rounded-2xl px-6 py-3">
                   Sr Psychologist
                 </h2>
               </div>
@@ -593,7 +593,7 @@ const UnitHeadPage: React.FC = () => {
       <section className="bg-white py-12 -mt-[50px]">
         <div className="max-w-7xl mx-auto px-4">
           {/* Section Title - Full Width Background */}
-          <div className="mb-8 bg-gradient-to-r from-purple-200 to-purple-300 rounded-2xl px-6 py-3">
+          <div className="mb-8 bg-gray-200 rounded-2xl px-6 py-3">
             <h2 className="text-xl font-bold text-gray-900 text-center">
               Jr Psychologists
             </h2>
